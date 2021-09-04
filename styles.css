@@ -1,5 +1,6 @@
+/* Jai Mata Di. */
 
-.heading{
+/* .heading{
     text-align: center;
     font-size: 50px;
     color: gray;
@@ -139,3 +140,229 @@ td{
   .redBorder{
     border: 3px solid red;
   }
+ */
+
+
+
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+    text-shadow: 1px 0 black;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-bottom: 5px;
+}
+
+table{
+   margin: auto;
+   
+}
+
+td input{
+    font-weight: bold;
+  outline: none;
+  border: none;
+  font-size:80%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding:0;
+  caret-color: transparent;
+}
+
+td{
+    padding: 0px;
+    width: 60px;
+    height:60px;
+    font-size:40px;
+}
+
+@media (max-width:600px) and (min-width:371px){
+    td{
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:280px){
+    td{
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:370px) and (min-width:281px){
+    td{
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+    }
+}
+
+
+
+input:hover{
+    background-color: #c1e8e3;
+    color:black;
+}
+
+
+table{
+    border-collapse:collapse;
+    border-spacing: 0px;
+    border-style: hidden;
+    border: 5px solid #344861;
+}
+
+.green-border{
+
+    border: 5px solid #126901;
+
+}
+
+.green-td{
+    border:1px solid #32e010;
+}
+
+.green-right-dark{
+    border:1px solid #32e010;
+    
+}
+
+.green-bottom-dark{
+    border:1px solid #32e010;
+
+}
+
+
+td{
+    border: 1px solid #bec6d4;
+    
+}
+
+.right-dark{
+    border-right: 4px solid gray;
+}
+
+.bottom-dark{
+    border-bottom: 4px solid gray;
+}
+
+.buttons{
+    width: 50%;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+
+
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    /* padding: 4px 10px; */
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);  
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+  @media (max-width:503px){
+      .buttons button{
+          margin-bottom: 15px;
+      } 
+      .buttons{
+          justify-content: center;
+      }
+  }
+
+  .selected{
+      background-color: #ecf2eb;
+  }
+
+  .red{
+      background-color: #f77979;
+  }
+  .redBorder{
+    border: 3px solid red;
+  }
+
+.colourChange{
+    background-color: black;
+}
+
+.mode{
+
+    font-size: 50px; 
+    color: black; 
+    margin-left: 85%;
+    background-color: gray; 
+    border-radius: 20%;
+     border: none;
+     cursor: grab;
+}
+
+@media (max-width:900px)
+{
+    .mode{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:500px)
+{
+    .mode{
+        font-size: 30px;
+    }
+
+    .buttons{
+        margin-top:25px;
+    }
+}
+
+@media (max-width:730px)
+{
+    .heading{
+        margin-bottom: 20px;
+    }
+}
+
+.colourWhite{
+    color: white;
+}
+
+.green-back{
+    background-color: #79ed61;
+}
+
+.info{
+   text-align: right;
+   margin-top: 30px;
+}
+
+@media (max-width:500px) {
+    
+    .info{
+        text-align: center;
+    }
+}
